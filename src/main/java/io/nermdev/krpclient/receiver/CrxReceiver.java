@@ -16,6 +16,10 @@ import reactor.kafka.receiver.internals.DefaultKafkaReceiver;
 
 import java.util.*;
 
+/**
+ * curl --location --request GET 'krpclient.nermdev.io/v1/api/init?laneId=001' --header 'Accept: text/event-stream' --header 'Connection: Keep-Alive'
+ * curl --location --request GET 'krpclient.nermdev.io/v1/api/init?laneId=002' --header 'Accept: text/event-stream' --header 'Connection: Keep-Alive'
+ */
 @RestController
 @RequestMapping(path = "/v1/api")
 public class CrxReceiver {
