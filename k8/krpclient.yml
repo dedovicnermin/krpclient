@@ -38,3 +38,6 @@ spec:
   selector:
     app: krpclient
   type: ClusterIP
+
+
+# NOTE: not displayed - ingress controller specifying rule for krpclient.nermdev.io to be routed to the above `service` k8 resource
